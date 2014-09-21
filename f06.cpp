@@ -214,7 +214,7 @@ void del()
 		for(int i = 0; i< find_cnt; i++)
 			cout<<i<<". "<<found[i].usn<<endl;
 		cout<<"\nEnter choice: \n";
-		cin>>ch;if(ch>find_cnt){cout<<"Invalid Range\n\n";return;};
+		cin>>ch;if(ch>find_cnt){cout<<"Invalid Range\n\n";return;}
 	}
 	cout<<"\nRecord Deleted\n\n";
 	fp.open("record6.txt",ios::out|ios::in);
